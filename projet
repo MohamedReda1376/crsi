@@ -1,0 +1,83 @@
+<div class="form-container mt-4">
+            <h4>📝 Formulaire d'Inscription</h4>
+            <form id="registrationForm">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <label for="id" class="form-label">Id :</label>
+                        <input type="number" class="form-control" id="id" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="code_gresa" class="form-label">Code GRESA :</label>
+                        <input type="text" class="form-control" id="code_gresa" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="user_id" class="form-label">User ID :</label>
+                        <input type="number" class="form-control" id="user_id" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="date_infection" class="form-label">Date d'Infection :</label>
+                        <input type="date" class="form-control" id="date_infection" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="type_infection" class="form-label">Type d'Infection :</label>
+                        <input type="text" class="form-control" id="type_infection" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="nombre_total_eleves" class="form-label">Nombre Total Élèves :</label>
+                        <input type="number" class="form-control" id="nombre_total_eleves" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="nombre_garcons" class="form-label">Nombre Garçons ♂ :</label>
+                        <input type="number" class="form-control" id="nombre_garcons" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="nombre_filles" class="form-label">Nombre Filles ♀ :</label>
+                        <input type="number" class="form-control" id="nombre_filles" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="nombre_total_employes" class="form-label">Nombre Total Employés :</label>
+                        <input type="number" class="form-control" id="nombre_total_employes" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="nombre_hommes_employes" class="form-label">Nombre Hommes Employés ♂ :</label>
+                        <input type="number" class="form-control" id="nombre_hommes_employes" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="nombre_femmes_employes" class="form-label">Nombre Femmes Employées ♀ :</label>
+                        <input type="number" class="form-control" id="nombre_femmes_employes" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="nombre_total_retablis_eleves" class="form-label">Nombre Total Rétablis Élèves :</label>
+                        <input type="number" class="form-control" id="nombre_total_retablis_eleves" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="nombre_garcons_retablis" class="form-label">Nombre Garçons Rétablis ♂ :</label>
+                        <input type="number" class="form-control" id="nombre_garcons_retablis" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="nombre_filles_retablis" class="form-label">Nombre Filles Rétablis ♀ :</label>
+                        <input type="number" class="form-control" id="nombre_filles_retablis" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="nombre_total_retablis_employes" class="form-label">Nombre Total Rétablis Employés :</label>
+                        <input type="number" class="form-control" id="nombre_total_retablis_employes" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="nombre_hommes_retablis_employes" class="form-label">Nombre Hommes Rétablis Employés ♂ :</label>
+                        <input type="number" class="form-control" id="nombre_hommes_retablis_employes" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="nombre_femmes_retablis_employes" class="form-label">Nombre Femmes Rétablis Employés ♀ :</label>
+                        <input type="number" class="form-control" id="nombre_femmes_retablis_employes" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="remarque" class="form-label">Remarque :</label>
+                        <textarea class="form-control" id="remarque" placeholder="Ajoutez une remarque" rows="2"></textarea>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </div>
